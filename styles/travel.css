@@ -497,9 +497,20 @@ hr {
 /* Responsive Styles */
 /* Mobile devices */
 @media screen and (max-width: 600px) {
+    .box-5{
+        margin-left: 100px;
+    }
+    .newsletter img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec1box{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
     nav,
-    nav>ul {
+    nav>ul, .newsletter {
         flex-direction: column;
     }
     .destination-text{
@@ -557,6 +568,22 @@ hr {
 }
 .discount-text> p{
      margin-left: 20px;
+}
+
+.footer-section>img{
+    width: 30px;
+    height: 24px;
+    margin-left: 200px;
+    margin-top: 50px;
+} 
+
+.icon{
+    width: 30px;
+    height: 24px;
+}
+.footer-section{
+    flex-direction: column;
+    margin-left: 50px;
 }
 
 
